@@ -1,2 +1,1 @@
-# .github
-OneWayTeam's main page
+Тест
