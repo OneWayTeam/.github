@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">OneWayTeam — От идеи до решения — один путь</title>
+  <desc id="desc">Тёмный технологичный баннер с абстрактными линиями, узлами и геометрическим символом направления.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090D18"/>
+      <stop offset="0.55" stop-color="#10172A"/>
+      <stop offset="1" stop-color="#15102B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55D6FF"/>
+      <stop offset="1" stop-color="#9B7BFF"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#7C8BA8" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".6">
+    <path d="M920 80H1130L1200 150H1430"/>
+    <path d="M960 440H1110L1190 360H1510"/>
+    <path d="M1090 0V85L1160 155V260"/>
+    <path d="M1370 0V110L1310 170V280L1410 380V520"/>
+    <path d="M850 300H1040L1110 230H1240"/>
+  </g>
+  <g fill="#55D6FF" filter="url(#glow)">
+    <circle cx="1130" cy="80" r="5"/><circle cx="1200" cy="150" r="5"/>
+    <circle cx="1110" cy="440" r="5"/><circle cx="1190" cy="360" r="5"/>
+    <circle cx="1160" cy="155" r="5"/><circle cx="1110" cy="230" r="5"/>
+  </g>
+  <g transform="translate(1115 170)">
+    <circle cx="140" cy="90" r="118" fill="#7D65FF" opacity=".07"/>
+    <circle cx="140" cy="90" r="90" fill="none" stroke="#6C7FFF" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M68 90H196M150 44L196 90L150 136" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 90H85" stroke="#55D6FF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="104" y="160" fill="#91A0BD" font-size="20" letter-spacing="6" font-weight="600">DIGITAL PRODUCTS · ENGINEERING · DESIGN</text>
+    <text x="100" y="260" fill="#F4F7FF" font-size="78" font-weight="750" letter-spacing="-2">OneWay<tspan fill="url(#accent)">Team</tspan></text>
+    <rect x="104" y="296" width="92" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="104" y="360" fill="#D6DEEF" font-size="34" font-weight="500">От идеи до решения — один путь</text>
+    <text x="104" y="414" fill="#91A0BD" font-size="21">Команда полного цикла разработки цифровых продуктов</text>
+  </g>
+  <rect x="1" y="1" width="1598" height="518" rx="27" fill="none" stroke="#8CA0C9" stroke-opacity=".2"/>
+</svg>
